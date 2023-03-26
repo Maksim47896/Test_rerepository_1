@@ -53,7 +53,7 @@ static void MX_GPIO_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-//extern uint32_t time;
+extern uint32_t time;
 /* USER CODE END 0 */
 
 /**
@@ -94,7 +94,7 @@ int main(void)
 	
 	
 	
-	uint32_t time = 500;
+	//uint32_t time = 500;
 	
   while (1)
   {
