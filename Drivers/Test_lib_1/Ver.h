@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-#define VALUE 1000
+#define VALUE 200
 
 extern uint32_t time;
 
