@@ -53,7 +53,7 @@ static void MX_GPIO_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+extern uint32_t time;
 /* USER CODE END 0 */
 
 /**
@@ -94,7 +94,7 @@ int main(void)
 	
 	
 	
-	uint32_t time = 500;
+	//uint32_t time = 500;
 	
   while (1)
   {
@@ -104,7 +104,7 @@ int main(void)
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET);
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_SET);
 		HAL_Delay(time);
-		
+//		
 		
     /* USER CODE END WHILE */
 
