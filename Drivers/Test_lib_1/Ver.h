@@ -7,4 +7,4 @@
 
 extern uint32_t time;
 
-#endif /* __VER_H */
+#endif /* __VER_H *///
